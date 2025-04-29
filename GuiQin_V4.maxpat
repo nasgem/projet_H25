@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 95.0, 142.0, 1602.0, 888.0 ],
+		"rect" : [ 95.0, 141.0, 1602.0, 888.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -10213,7 +10213,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1724.0, 999.0 ],
+						"rect" : [ 34.0, 87.0, 1342.0, 999.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -11960,6 +11960,7 @@
 										"scale_low" : 0
 									}
 ,
+									"autorestore" : "GuiQin_preset.json",
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -11989,10 +11990,10 @@
 									"restore" : 									{
 										"ModelMaster" : [ -7.165354330708666 ],
 										"latent_or_audio" : [ 1.0 ],
-										"live.numbox" : [ 4.755905511811024 ],
+										"live.numbox" : [ 9.84251968503937 ],
 										"loadconfig" : [ 0.0 ],
 										"model_enable" : [ 0.0 ],
-										"multislider" : [ 0.322834645669291, 0.771653543307087, 0.598425196850394, 0.0, 0.220472440944882, 0.763779527559055, 0.0, 0.0, 0.31496062992126, 0.511811023622047, 0.05511811023622, 0.133858267716535, 0.0, 0.622047244094488, 0.826771653543307, 0.0 ],
+										"multislider" : [ 0.524383804948141, 0.827272286800436, 0.903977360770168, 0.630078801924826, 0.863065572118068, 0.83674259358296, 0.094175482687958, 0.380058383669687, 0.225715399053094, 0.367890692841838, 0.374087974373818, 0.727331919076051, 0.129427474456901, 0.390329989935857, 0.32787183137422, 0.329618821906132 ],
 										"randomize_both" : [ 0.0 ],
 										"randomize_latentspaces" : [ 0.0 ],
 										"randomize_matrix" : [ 0.0 ],
@@ -16924,13 +16925,16 @@
 				"box" : 				{
 					"fontsize" : 18.0,
 					"id" : "obj-18",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.0, 99.0, 222.0, 27.0 ],
+					"patching_rect" : [ 139.0, 99.0, 222.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 232.5, 79.0, 222.0, 27.0 ],
-					"text" : "Samuel Gendron, Vivian Li"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 233.0, 71.0, 222.0, 47.0 ],
+					"text" : "Samuel Gendron, Vivian Li\nUniversité de Montréal",
+					"textjustification" : 1
 				}
 
 			}
@@ -16944,7 +16948,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.0, 70.0, 441.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 50.0, 446.0, 27.0 ],
+					"presentation_rect" : [ 120.0, 44.0, 446.0, 27.0 ],
 					"text" : "Interactive generative audio instrument built with RAVE"
 				}
 
@@ -16959,7 +16963,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 186.0, 21.0, 128.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 279.0, 8.0, 128.0, 47.0 ],
+					"presentation_rect" : [ 279.0, 0.0, 128.0, 47.0 ],
 					"text" : "GuiQin"
 				}
 
