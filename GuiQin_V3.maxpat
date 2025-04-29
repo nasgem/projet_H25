@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -181.0, -1353.0, 2492.0, 1319.0 ],
+		"rect" : [ 95.0, 142.0, 1602.0, 888.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 53.0, 1302.0, 464.0 ],
+						"rect" : [ 245.0, 354.0, 1302.0, 464.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -9751,7 +9751,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1342.0, 999.0 ],
+						"rect" : [ 34.0, 87.0, 453.0, 999.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -9888,7 +9888,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+									"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.0 ],
 									"fontface" : 1,
 									"fontsize" : 24.0,
 									"id" : "obj-72",
@@ -9899,6 +9899,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 16.0, 16.0, 353.0, 33.0 ],
 									"text" : "Record output",
+									"textcolor" : [ 0.698028981685638, 0.740224540233612, 0.828788757324219, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -10058,10 +10059,11 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.223529411764706, 0.223529411764706, 0.223529411764706, 1.0 ],
+									"grad1" : [ 0.011764705882353, 0.101960784313725, 0.0, 1.0 ],
+									"grad2" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"id" : "obj-1",
 									"maxclass" : "panel",
-									"mode" : 0,
+									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 11.0, 10.0, 342.0, 233.0 ],
@@ -11958,7 +11960,6 @@
 										"scale_low" : 0
 									}
 ,
-									"autorestore" : "GuiQin_latentSpace_2.json",
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -16395,7 +16396,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-23",
-					"items" : [ "None", ",", "BenQ GW2750H", ",", "LG ULTRAGEAR", ",", "Scarlett 18i20 USB", ",", "BlackHole 64ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "ZoomAudioDevice", ",", "18i20 Blackhole", ",", "18i20 FM3" ],
+					"items" : [ "None", ",", "BlackHole 64ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "ZoomAudioDevice", ",", "18i20 Blackhole" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -16421,7 +16422,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
-					"items" : [ "None", ",", "sgi12 Microphone", ",", "Scarlett 18i20 USB", ",", "BlackHole 64ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "ZoomAudioDevice", ",", "18i20 Blackhole", ",", "18i20 FM3" ],
+					"items" : [ "None", ",", "sgi12 Microphone", ",", "BlackHole 64ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "ZoomAudioDevice", ",", "18i20 Blackhole" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -16447,7 +16448,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"items" : [ "Off", ",", 1, "Input 1" ],
+					"items" : "Off",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -16937,13 +16938,14 @@
 				"box" : 				{
 					"fontsize" : 18.0,
 					"id" : "obj-12",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 70.0, 441.0, 27.0 ],
+					"patching_rect" : [ 29.0, 70.0, 441.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.5, 50.0, 441.0, 27.0 ],
-					"text" : "Human-Computer interaction interface built with RAVE"
+					"presentation_rect" : [ 120.0, 50.0, 446.0, 27.0 ],
+					"text" : "Interactive generative audio instrument built with RAVE"
 				}
 
 			}
@@ -18831,7 +18833,7 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
+											"parameter_initial" : [ 0.21 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.dial[17]",
 											"parameter_mmax" : 1.0,
@@ -18878,11 +18880,11 @@
 ,
 										"valueof" : 										{
 											"parameter_exponent" : 3.0,
-											"parameter_initial" : [ 0.05 ],
+											"parameter_initial" : [ 0.01 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.dial[9]",
 											"parameter_mmax" : 50.0,
-											"parameter_mmin" : 0.05,
+											"parameter_mmin" : 0.01,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "LFO freq",
 											"parameter_type" : 0,
@@ -19050,11 +19052,11 @@
 ,
 										"valueof" : 										{
 											"parameter_exponent" : 3.0,
-											"parameter_initial" : [ 9.096062992125983 ],
+											"parameter_initial" : [ 0.05 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.dial[25]",
 											"parameter_mmax" : 50.0,
-											"parameter_mmin" : 0.05,
+											"parameter_mmin" : 0.01,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "LFO freq",
 											"parameter_type" : 0,
@@ -19146,6 +19148,8 @@
 										"valueof" : 										{
 											"parameter_annotation_name" : "link",
 											"parameter_enum" : [ "off", "on" ],
+											"parameter_initial" : [ 1 ],
+											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.toggle",
 											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 0,
@@ -19161,6 +19165,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activedialcolor" : [ 0.490196078431373, 0.298039215686275, 1.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-12",
@@ -19174,15 +19179,19 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 325.0, 41.5, 61.0, 52.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
 										"panelcolor" : 										{
 											"expression" : ""
 										}
 ,
 										"valueof" : 										{
-											"parameter_initial" : [ 0.401574803149606 ],
+											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.dial[24]",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 0.8,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "res R",
 											"parameter_type" : 0,
@@ -19197,6 +19206,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activedialcolor" : [ 0.490196078431373, 0.298039215686275, 1.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
@@ -19210,13 +19220,17 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 262.0, 41.5, 61.0, 52.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
 										"panelcolor" : 										{
 											"expression" : ""
 										}
 ,
 										"valueof" : 										{
 											"parameter_exponent" : 3.0,
-											"parameter_initial" : [ 475.084268908701461 ],
+											"parameter_initial" : [ 20000 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.dial[26]",
 											"parameter_mmax" : 20000.0,
@@ -19235,6 +19249,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activedialcolor" : [ 0.490196078431373, 0.298039215686275, 1.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-6",
@@ -19248,15 +19263,19 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 163.0, 41.5, 61.0, 52.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
 										"panelcolor" : 										{
 											"expression" : ""
 										}
 ,
 										"valueof" : 										{
-											"parameter_initial" : [ 0.346456692913386 ],
+											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.dial[27]",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 0.8,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "res L",
 											"parameter_type" : 0,
@@ -19298,6 +19317,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activedialcolor" : [ 0.490196078431373, 0.298039215686275, 1.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-141",
@@ -19311,13 +19331,17 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 100.0, 41.5, 61.0, 52.0 ],
 									"saved_attribute_attributes" : 									{
+										"activedialcolor" : 										{
+											"expression" : ""
+										}
+,
 										"panelcolor" : 										{
 											"expression" : ""
 										}
 ,
 										"valueof" : 										{
 											"parameter_exponent" : 3.0,
-											"parameter_initial" : [ 7130.691701698377074 ],
+											"parameter_initial" : [ 20000 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.dial[23]",
 											"parameter_mmax" : 20000.0,
@@ -24667,7 +24691,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 766.0, 598.0, 70.0, 22.0 ],
+									"patching_rect" : [ 757.0, 127.5, 70.0, 22.0 ],
 									"text" : "loadmess 1"
 								}
 
@@ -24680,12 +24704,20 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
-									"patching_rect" : [ 766.0, 632.0, 107.0, 27.0 ],
+									"patching_rect" : [ 757.0, 161.5, 107.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 38.0, 28.0, 24.0, 144.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
-											"data" : [ 5, "obj-8", "live.dial", "float", 25.0, 5, "obj-9", "live.dial", "float", 18.0, 5, "obj-10", "live.dial", "float", 49.0, 5, "obj-12", "live.dial", "float", 40.0, 5, "obj-15", "live.slider", "float", 0.537037014961243 ]
+											"data" : [ 5, "obj-8", "live.dial", "float", 25.0, 5, "obj-9", "live.dial", "float", 18.0, 5, "obj-10", "live.dial", "float", 49.0, 5, "obj-12", "live.dial", "float", 40.0 ]
+										}
+, 										{
+											"number" : 2,
+											"data" : [ 5, "obj-8", "live.dial", "float", 67.0, 5, "obj-9", "live.dial", "float", 63.0, 5, "obj-10", "live.dial", "float", 83.0, 5, "obj-12", "live.dial", "float", 82.0 ]
+										}
+, 										{
+											"number" : 3,
+											"data" : [ 5, "obj-8", "live.dial", "float", 105.0, 5, "obj-9", "live.dial", "float", 108.0, 5, "obj-10", "live.dial", "float", 97.0, 5, "obj-12", "live.dial", "float", 105.0 ]
 										}
  ]
 								}
@@ -24733,6 +24765,14 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"midpoints" : [ 810.5, 197.25, 629.5, 197.25 ],
+									"source" : [ "obj-1", 2 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-150", 3 ],
 									"midpoints" : [ 415.5, 468.0, 413.8162522798998, 468.0 ],
@@ -25458,7 +25498,9 @@
 				}
 ,
 				"obj-107::obj-12" : 				{
-					"parameter_longname" : "live.dial[24]"
+					"parameter_initial" : 0,
+					"parameter_longname" : "live.dial[24]",
+					"parameter_range" : [ 0.0, 0.8 ]
 				}
 ,
 				"obj-107::obj-129" : 				{
@@ -25466,20 +25508,35 @@
 				}
 ,
 				"obj-107::obj-13" : 				{
+					"parameter_initial" : 20000,
 					"parameter_longname" : "live.dial[26]"
 				}
 ,
 				"obj-107::obj-141" : 				{
+					"parameter_initial" : 20000,
 					"parameter_longname" : "live.dial[23]"
+				}
+,
+				"obj-107::obj-148" : 				{
+					"parameter_initial" : 0.21
 				}
 ,
 				"obj-107::obj-153" : 				{
 					"parameter_exponent" : 3.0,
-					"parameter_longname" : "live.dial[9]"
+					"parameter_initial" : 0.01,
+					"parameter_longname" : "live.dial[9]",
+					"parameter_range" : [ 0.01, 50.0 ]
+				}
+,
+				"obj-107::obj-34" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1
 				}
 ,
 				"obj-107::obj-6" : 				{
-					"parameter_longname" : "live.dial[27]"
+					"parameter_initial" : 0,
+					"parameter_longname" : "live.dial[27]",
+					"parameter_range" : [ 0.0, 0.8 ]
 				}
 ,
 				"obj-107::obj-84" : 				{
@@ -25488,7 +25545,9 @@
 ,
 				"obj-107::obj-97" : 				{
 					"parameter_exponent" : 3.0,
-					"parameter_longname" : "live.dial[25]"
+					"parameter_initial" : 0.05,
+					"parameter_longname" : "live.dial[25]",
+					"parameter_range" : [ 0.01, 50.0 ]
 				}
 ,
 				"obj-47::obj-225" : 				{
@@ -25658,13 +25717,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "GuiQin_latentSpace_2.json",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../Desktop",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "nn~.mxo",
 				"type" : "iLaX"
 			}
